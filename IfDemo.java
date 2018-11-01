@@ -9,16 +9,7 @@ public static void main(String[]args){
 
     System.out.println();
 
-    c = a - b; // c contains -1
 
-    System.out.println("C contains -1");
-    if(c >= 0) System.out.println("C is positive.");
-    if(c < 0) System.out.println("C - is negative. ");
-
-    System.out.println();
-
-    c = (b - a);
-    System.out.println("C contains now it is " + c);
 }
 
         }
