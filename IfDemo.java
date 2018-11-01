@@ -18,7 +18,7 @@ public static void main(String[]args){
     System.out.println();
 
     c = (b - a);
-    System.out.println("C contains now__ " + c);
+    System.out.println("C contains now it is " + c);
 }
 
         }
