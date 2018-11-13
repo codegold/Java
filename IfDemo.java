@@ -1,22 +1,16 @@
-class IfDemo{
-
-public static void main(String[]args){
-    int a, b, c;
-    a = 2; b = 3;
-
-    if  (a < b) System.out.println("a lower than b.");
-    if (a == b) System.out.println("You'll don't ever see this!");
-
-    int count;
-
-    for (count = 0; count < 5; count = count+1)
-        System.out.println("Mississipi is " + count);
-
-    System.out.println("It over for now.");
-
-
-}
-
+// Нахождение простых чисел в пределах от 2 до 100.
+class Prime {
+    public static void main(String args[]) {
+        int i, j;
+        boolean isprime;
+        for(i=2; i < 10; i++) {
+            isprime = true;
+            // проверить, делится ли число без остатка
+            for(j=2; j < i/j; j++)
+                // если число делится без остатка, значит, оно простое
+                if ( (i%j) == 0) isprime = false;
+            if(isprime)
+                System.out.println(i + " is prime.");
         }
-
-
+    }
+}
