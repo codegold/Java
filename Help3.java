@@ -3,6 +3,7 @@
 Завершенная справочная система по управляющим
 операторам Java, обрабатывающая многократные запросы
 */
+
 class Help3 {
     public static void main(String args[])
             throws java.io.IOException {
